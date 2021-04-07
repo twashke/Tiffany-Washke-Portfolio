@@ -348,11 +348,11 @@ footer {
     }
     /* Color Header Banner */
     .banner_img {
-        height: 150px;
+        height: 130px;
     }   
     /* Tiffany Portfolio Title */
     .banner_header { 
-        font-size: 18px;
+        font-size: 20px;
         flex-direction: column;
         flex-wrap: wrap;
         align-self: flex-start;
@@ -461,11 +461,11 @@ footer {
     }
     /* Color Header Banner */
     .banner_img {
-        height: 150px;
+        height: 130px;
     }   
     /* Tiffany Portfolio Title */
     .banner_header { 
-        font-size: 18px;
+        font-size: 20px;
         flex-direction: column;
         flex-wrap: wrap;
         align-self: flex-start;
