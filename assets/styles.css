@@ -353,8 +353,10 @@ footer {
     }
     /* Tiffany Portfolio Title */
     .banner_header { 
-        font-size: 18px;
-        align-self: flex-end;
+        font-size: 14px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-self: flex-start;
         justify-self: flex-start;
         padding: 5px;
         margin: 5px;
@@ -465,8 +467,10 @@ footer {
     }
     /* Tiffany Portfolio Title */
     .banner_header { 
-        font-size: 18px;
-        align-self: flex-end;
+        font-size: 14px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-self: flex-start;
         justify-self: flex-start;
         padding: 5px;
         margin: 5px;
@@ -572,8 +576,10 @@ footer {
     }
     /* Tiffany Portfolio Title */
     .banner_header { 
-        font-size: 18px;
-        align-self: flex-end;
+        font-size: 14px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-self: flex-start;
         justify-self: flex-start;
         padding: 5px;
         margin: 5px;
