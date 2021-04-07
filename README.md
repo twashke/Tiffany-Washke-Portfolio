@@ -22,7 +22,7 @@ A portfolio website for and about Tiffany Washke utilizing HTML and CSS.
 
 ## Installation
 
-- Open [Tiffany Washke Portfolio]("https://twashke.github.io/Tiffany-Washke-Portfolio/") 
+- Open [Tiffany Washke Portfolio](https://twashke.github.io/Tiffany-Washke-Portfolio/) 
 - Or, open index.html in your internet browser.
 
 ## Usage
@@ -33,7 +33,7 @@ A portfolio website for and about Tiffany Washke utilizing HTML and CSS.
 \
 ![Work section screenshot](assets/img/work.png) \
 \
-![Resume and Contact section screenshot](assets/img/resume_contact_footer.png)
+![Resume and Contact section screenshot](assets/img/resume_contact_footer.png) 
 
 ## Credit
 
