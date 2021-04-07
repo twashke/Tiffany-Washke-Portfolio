@@ -29,11 +29,17 @@ A portfolio website about Tiffany Washke utilizing HTML and CSS.
 
 - Scroll or use the navigation links provided to see the four different sections.
 
+About Section \
 ![About section screenshot](assets/img/about.png) \
 \
+Work Section \
 ![Work section screenshot](assets/img/work.png) \
 \
-![Resume and Contact section screenshot](assets/img/resume_contact_footer.png) 
+Resume and Contact Section \
+![Resume and Contact section screenshot](assets/img/resume_contact_footer.png) \
+\
+Resume Section Reduced for Small Screens \
+![Resume Small Screen Capture](assets/img/small_screen.png)
 
 ## Credit
 

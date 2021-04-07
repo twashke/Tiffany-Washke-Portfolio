@@ -69,13 +69,13 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
     margin: 20px;
     padding: 15px;
     font-size: 28px;
     font-weight: bolder;
     list-style: none;
 }
-
 
 /* Link Decorations */
 a:link{
@@ -117,7 +117,7 @@ a:active{
     align-items: center;
 }
 
-/* About Me Container */
+/* About Me Container Display */
 .about_container {
     display: flex;
     justify-content: space-between;
@@ -153,17 +153,18 @@ a:active{
     align-self: center;
     color: var(--white);
 }
-/* Text color for work section */
+
+/* Work Section Color Styling */
 .work {
     color: var(--white);
 }
 
-/* Header padding for Work h2 */
+/* Work Section H2 Styling */
 .work h2 {
     padding-left: 300px;
 }
 
-/* Container settings and styling */
+/* Work Container Display and Styling */
 .work_container {
     display: flex;
     align-items: flex-end;
@@ -173,20 +174,20 @@ a:active{
     padding-left: 200px;
 }
 
-/* Hover command for project_big */
+/* Project Big Hover Styling */
 .project_big:hover {
     background-color: var(--gray);
     font-size: bolder;
     box-shadow: 5px 5px (var--teal);                 
 }
 
-/* Hover command for project_1 */
+/* Project_1 Hover Styling */
 .project_1:hover {
     background-color: var(--gray);
     box-shadow: 10px 10px (var--teal);    
 }
 
-/* Container settings and styling */
+/* Project Big Container Display */
 .project_big {
     align-self: flex-end;
     justify-self: flex-end;
@@ -194,14 +195,14 @@ a:active{
     border: 5px double var(--gray);
 }
 
-/* project_big container styling */
+/* Project Big Image Sizes and Styling */
 .project_big img {
     height: 460px;
     width: 970px;
     border: 3px solid (--white);
 }
 
-/* project_1 container styling */
+/* Project_1 Styling */
 .project_1 {
     color: var(--white);
     font-size: 150%;
@@ -209,12 +210,12 @@ a:active{
     text-align: right;
 }
 
-/* span h3 styling */
+/* Span H3 Padding */
 span h3 {
     padding-right: 50px;
 }
 
-/* project 2 - 5 hover styling */
+/* Project 2, 3, 4, 5 Hover Stylings */
 .project_2:hover,
 .project_3:hover,
 .project_4:hover,
@@ -224,27 +225,27 @@ span h3 {
     box-shadow: 5px 5px var(--teal);
 }
 
-/* project_small container styling */
+/* Project Small Container Display */
 .project_small {
     display: flex;
     justify-content: flex-start;
-    align-items:center;
+    align-content:center;
     flex-wrap: wrap;
     padding-left: 200px;
 }
 
-/* project_small image styling */
+/* Project Small Image Sizes and Styling */
 .project_small img {
     height: 200px;
     width: 200px;
 }
 
-/* project_small h3 styling */
+/* Project Small H3 Styling */
 .project_small h3 {
     padding-right: 5px;
 }
 
-/* project 2 - 5 styling */
+/* Project 2, 3, 4, 5 Stylings */
 .project_2,
 .project_3,
 .project_4,
@@ -256,74 +257,71 @@ span h3 {
     margin: 10px;
 }
 
-/* Resume font and list styling */
+/* Resume Section Styling */
 .resume {
     color: var(--white);
     font-size: 26px;
     list-style-type: disc;
 }
 
-/* Resume h2 styling */
-.resume h2 {
-    padding-left: 200px;
-}
-
-/* Resume container styling */
+/* Resume Container Display */
 .resume_container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-/* Resume container h3 styling */
+/* Resume Container H3 Styling */
 .resume_container h3 {
     font-size: 25px;
     font-weight: bolder;
+    text-align: center;
 }
 
-/* Resume experience settings */
+/* Resume Experience Display */
 .resume_experience {
     align-self: flex-start;
 }
 
-/* Resume skills settings */
+/* Resume Skills Display */
 .resume_skills {
     align-self: flex-start;
 }
 
-/* Resume education settings */
+/* Resume Education Display */
 .resume_education {
     align-self: flex-start;
 }
 
-/* Contact font and stylings */
+/* Contact Section Styling */
 .contact {
-    border: 5px solid var(--white);
     background-color: var(--white);
-    padding-bottom: 15px;
+    padding: 20px;
+    margin: 20px;
 }
 
-/* Contact header h2 font and stylings */
+/* Contact Section H2 Styling */
 .contact_header h2 {
     color: var(--teal);
     text-align: center;
 }
 
-/* Contact container styling */
+/* Contact Container Display */
 .contact_container {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    color: var (--black);
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
 }
 
-/* Contact container h3 styling */
+/* Contact Container H3 Styling */
 .contact_container h3 {
     text-align: center;
     font-size: 26px;
 }
 
-/* Contact container image styling */
+/* Contact Container Image Size and Styling */
 .contact_container img {
     height: 75px;
     width: 75px;
@@ -334,296 +332,140 @@ span h3 {
     border: 2px solid var(--black);
 }
 
-/* Footer font styling */
+/* Footer Styling */
 footer {
+    background-color: var(--black);
     color: var(--white);
     text-align: center;
 }
 
-/* Media Queies for smaller screen */
+/* Media Query for Smaller Device */
 @media (max-width: 360px) {
-    
-    /* body and footer */
+    /* Body and Footer Font Styling */
     body,
     footer {
         font-size: 75%;
     }
-
-    /* Corrected padding */
-    .empty_space {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    /* Nav links styling */
+    /* Navigation Menu Display and Font */
     .nav_links {
         display: flex;
         justify-content: flex-end;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    /* About container styling */
-    .about_container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    
-    /* Work container styling */
-    .work_container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding-right: 50px;
-    }
-
-     /* project_big container styling */
-    .project_big {
-        height: 150%;
-        width: 150%;
-    }
-
-     /* project_big image styling */
-    .project_big img {
-        height: 100%;
-        width: 100%;
-    }
-
-     /* project_small container styling */
-    .project_small {
-        height: 100%;
-        width: 100;
-    }
-
-     /* project_small image styling */
-    .project_small img {
-        height: 100%;
-        width: 100%;
-    }
-
-    /* Project 2 - 5 container styling */
-    .project_2,
-    .project_3,
-    .project_4,
-    .project_5 {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        justify-self: center;
-        flex-wrap: wrap;
-    }
-
-    /* Resume container styling */
-    .resume_container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: center;
-    }
-}
-
-/* Media Queies for small screen */
-@media (max-width: 420px) {
-    
-    /* body and footer */
-    body,
-    footer {
-        font-size: 75%;
-    }
-
-    /* Corrected padding */
-    .empty_space {
-        padding: 0px;
-        margin: 0px;
-    }
-    /* Nav links styling */
-    .nav_links {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        align-items: center;
-    }
-
-    /* About container styling */
-    .about_container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    
-    /* Work container styling */
-    .work_container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding-right: 50px;
-    }
-
-     /* project_big container styling */
-    .project_big {
-        height: 150%;
-        width: 150%;
-    }
-
-     /* project_big image styling */
-    .project_big img {
-        height: 100%;
-        width: 100%;
-    }
-
-     /* project_small container styling */
-    .project_small {
-        height: 100%;
-        width: 100;
-    }
-
-     /* project_small image styling */
-    .project_small img {
-        height: 100%;
-        width: 100%;
-    }
-
-    /* Project 2 - 5 container styling */
-    .project_2,
-    .project_3,
-    .project_4,
-    .project_5 {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        justify-self: center;
-        flex-wrap: wrap;
-    }
-
-    /* Resume container styling */
-    .resume_container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: center;
-    }
-}
-
-/* Media query for mid size screen  */
-@media (max-width: 780px) {
-    
-    /* body and footer */
-    body,
-    footer {
-        font-size: 75%;
-    }
-
-    /* Corrected padding */
-    .empty_space {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    /* Nav links styling */
-    .nav_links {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-    }
-
-    /* About container styling */
-    .about_container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    
-    /* Work container styling */
-    .work_container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding-right: 50px;
-    }
-
-     /* project_big container styling */
-    .project_big {
-        height: 150%;
-        width: 150%;
-    }
-
-     /* project_big image styling */
-    .project_big img {
-        height: 100%;
-        width: 100%;
-    }
-
-     /* project_small container styling */
-    .project_small {
-        height: 100%;
-        width: 100;
-    }
-
-     /* project_small image styling */
-    .project_small img {
-        height: 100%;
-        width: 100%;
-    }
-
-    /* Project 2 - 5 container styling */
-    .project_2,
-    .project_3,
-    .project_4,
-    .project_5 {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        justify-self: center;
-        flex-wrap: wrap;
-    }
-
-    /* Resume container styling */
-    .resume_container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: center;
-    }
-}
-    /* Media Query for larger desktops */
-@media (max-width: 1200px) {
-
-   /* Nav links styling */
-    .nav_links {
-        display: flex;
-        justify-content: space-between;
         align-items: flex-end;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
-   /* About container styling */
+    /* About Me Container Display */
     .about_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* Work Section H2 Styling */
+    .work h2 {
+        padding-left: 200px;
+    }
+    /* Work Container Display and Styling */
+    .work_container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-right: 125px;
+        padding-right: 50px;
     }
+    /* Project Big Container Display */
+    .project_big {
+        height: 400px;
+        width: 500px;
+        align-self: flex-start;
+        justify-self: flex-start;
+        padding-bottom: 5px;
+    }
+    /* Project Big Image Sizes */
+    .project_big img {
+        height: 300px;
+        width: 300px;
+    }
+    /* Project Small Container Display */
+    .project_small {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 15px;
+    }
+    /* Project Small Image Sizes */
+    .project_small img {
+        height: 75%;
+        width: 75%;
+    }
+    /* Project 2, 3, 4, 5 Display */
+    .project_2,
+    .project_3,
+    .project_4,
+    .project_5 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: flex-start;
+        flex-wrap: wrap;
+    }
+    /* Resume Container Display */
+    .resume_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    /* Contact Container Display */
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var (--black);
+    }
+    /* Contact Container H3 Styling */
+    .contact_container h3 {
+        text-align: center;
+        font-size: 50%;    
+    }
+}
 
-   /* Work container styling */
+/* Media Query for Small Device */
+@media (max-width: 460px) {
+    /* Body and Footer Font Styling */
+    body,
+    footer {
+        font-size: 75%;
+    }
+    /* Navigation Menu Display and Font */
+    .nav_links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* About Me Container Display */
+    .about_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* Work Section H2 Styling */
+    .work h2 {
+        padding-left: 200px;
+    }
+    /* Work Container Display and Styling */
     .work_container {
         display: flex;
         justify-content: center;
@@ -631,50 +473,167 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         padding-right: 50px;
+        margin-right: 125px;
     }
-
-    /* project_big container styling */
+    /* Project Big Container Display */
     .project_big {
-        height: 150%;
-        width: 150%;
+        height: 400px;
+        width: 500px;
+        align-self: flex-start;
+        justify-self: flex-start;
+        padding-bottom: 5px;
     }
-
-    /* project_big image styling */
+     /* Project Big Image Sizes */
     .project_big img {
-        height: 100%;
-        width: 100%;
+        height: 300px;
+        width: 300px;
     }
-
-    /* project_small container styling */
+    /* Project Small Container Display */
     .project_small {
         height: 100%;
-        width: 100;
-    }
-
-    /* project_small image styling */
-    .project_small img {
-        height: 100%;
         width: 100%;
-    }    
-
-   /* Project 2 - 5 container styling */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 15px;
+    }
+    /* Project Small Image Sizes */
+    .project_small img {
+        height: 75%;
+        width: 75%;
+    }
+    /* Project 2, 3, 4, 5 Display */
     .project_2,
     .project_3,
     .project_4,
     .project_5 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-self: center;
-        justify-self: center;
+        justify-self: flex-start;
         flex-wrap: wrap;
     }
-
-   /* Resume container styling */
+    /* Resume Container Display */
     .resume_container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
     }
+    /* Contact Container Display */
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var (--black);
+    }
+    /* Contact Container H3 Styling */
+    .contact_container h3 {
+        text-align: center;
+        font-size: 50%;    
+    }
 }
+
+/* Media Query for Medium Device */
+@media (max-width: 780px) {
+    /* Body and Footer Font Styling */
+    body,
+    footer {
+        font-size: 75%;
+    }
+    /* Navigation Menu Display and Font */
+    .nav_links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* About Me Container Display */
+    .about_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* Work Section H2 Styling */
+    .work h2 {
+        padding-left: 200px;
+    }
+    /* Work Container Display and Styling */
+    .work_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 50px;
+        margin-right: 125px;
+    }
+    /* Project Big Container Display */
+    .project_big {
+        height: 400px;
+        width: 500px;
+        align-self: flex-start;
+        justify-self: flex-start;
+        padding-bottom: 5px;
+    }
+     /* Project Big Image Sizes */
+    .project_big img {
+        height: 300px;
+        width: 300px;
+    }
+    /* Project Small Container Display */
+    .project_small {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 15px;
+    }
+    /* Project Small Image Sizes */
+    .project_small img {
+        height: 100%;
+        width: 100%;
+    }
+    /* Project 2, 3, 4, 5 Display */
+    .project_2,
+    .project_3,
+    .project_4,
+    .project_5 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: flex-start;
+        flex-wrap: wrap;
+    }
+    /* Resume Container Display */
+    .resume_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    /* Contact Container Display */
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var (--black);
+    }
+
+     /* Contact container h3 styling */
+    .contact_container h3 {
+        text-align: center;
+        font-size: 50%;   
+    }
+}
+
