@@ -346,6 +346,19 @@ footer {
     footer {
         font-size: 75%;
     }
+    /* Color Header Banner */
+    .banner_img {
+        height: 90px;
+        width: 100%;
+    }
+    /* Tiffany Portfolio Title */
+    .banner_header { 
+        font-size: 18px;
+        align-self: flex-end;
+        justify-self: flex-start;
+        padding: 5px;
+        margin: 5px;
+    }
     /* Navigation Menu Display and Font */
     .nav_links {
         display: flex;
@@ -445,6 +458,19 @@ footer {
     footer {
         font-size: 75%;
     }
+    /* Color Header Banner */
+    .banner_img {
+        height: 90px;
+        width: 100%;
+    }
+    /* Tiffany Portfolio Title */
+    .banner_header { 
+        font-size: 18px;
+        align-self: flex-end;
+        justify-self: flex-start;
+        padding: 5px;
+        margin: 5px;
+    }
     /* Navigation Menu Display and Font */
     .nav_links {
         display: flex;
@@ -543,6 +569,19 @@ footer {
     body,
     footer {
         font-size: 75%;
+    }
+    /* Tiffany Portfolio Title */
+    .banner_header { 
+        font-size: 18px;
+        align-self: flex-end;
+        justify-self: flex-start;
+        padding: 5px;
+        margin: 5px;
+    }
+    /* Color Header Banner */
+    .banner_img {
+        height: 90px;
+        width: 100%;
     }
     /* Navigation Menu Display and Font */
     .nav_links {
