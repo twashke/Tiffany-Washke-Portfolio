@@ -69,7 +69,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: nowrap;
     margin: 20px;
     padding: 15px;
     font-size: 28px;
@@ -350,11 +349,17 @@ footer {
         font-size: 75%;
     }
 
+    /* Corrected padding */
+    .empty_space {
+        padding: 0px;
+        margin: 0px;
+    }
+
     /* Nav links styling */
     .nav_links {
         display: flex;
         justify-content: flex-end;
-        align-items: flex-end;
+        align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -432,14 +437,20 @@ footer {
         font-size: 75%;
     }
 
+    /* Corrected padding */
+    .empty_space {
+        padding: 0px;
+        margin: 0px;
+    }
     /* Nav links styling */
     .nav_links {
         display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
     }
+
     /* About container styling */
     .about_container {
         display: flex;
@@ -514,14 +525,20 @@ footer {
         font-size: 75%;
     }
 
+    /* Corrected padding */
+    .empty_space {
+        padding: 0px;
+        margin: 0px;
+    }
+
     /* Nav links styling */
     .nav_links {
         display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
         flex-direction: column;
-        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
     }
+
     /* About container styling */
     .about_container {
         display: flex;
@@ -585,14 +602,14 @@ footer {
         justify-content: flex-start;
         align-items: center;
     }
-
+}
     /* Media Query for larger desktops */
-    @media (max-width: 1200px) {
+@media (max-width: 1200px) {
 
    /* Nav links styling */
     .nav_links {
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: flex-end;
         flex-direction: row;
         flex-wrap: wrap;
@@ -660,3 +677,4 @@ footer {
         justify-content: flex-start;
         align-items: center;
     }
+}

@@ -2,7 +2,7 @@
 
 ## Project Description
 
-A portfolio website for and about Tiffany Washke utilizing HTML and CSS. 
+A portfolio website about Tiffany Washke utilizing HTML and CSS. 
 
 ## Table of Contents 
 
