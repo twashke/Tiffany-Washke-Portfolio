@@ -1,0 +1,662 @@
+/* Variable Colors Used */
+:root {
+    --purple: rgb(65, 3, 65);
+    --black: black;
+    --white: white;
+    --teal: teal;
+    --gray: gray;
+}
+
+/* Universal Selector */
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/* Styling for all html */
+html {
+    background-color: var(--black);
+}
+
+/* Styling for all h2 */
+h2 {
+    color: var(--gray);
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* Banner Container Design */
+.banner_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* Color Header Banner */
+.banner_img {
+    height: 130px;
+    width: 100%;
+}
+
+/* Tiffany Portfolio Title */
+.banner_header { 
+    color: var(--white);
+    font-size: 28px;
+    font-weight: bolder;
+    align-self: flex-start;
+    justify-self: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Empty Space Padding for Navigation Bar */
+.empty_space {
+    padding: 75px;
+    margin: 75px;
+}
+
+/* Nav Bar Fixed to the Top of Page */
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+}
+
+/* Navigation Menu Display and Font */
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin: 20px;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: bolder;
+    list-style: none;
+}
+
+
+/* Link Decorations */
+a:link{
+    color: var(--teal);
+    text-shadow: 1px var(--white);
+    font-size: bolder;
+}
+
+/* Link Visited Decorations */
+a:visited{
+    color: var(--teal);
+    text-shadow: 1px var(--white);
+}
+
+/* Link Hover Decorations */
+a:hover{
+    background-color: var(--black);
+    color: var(--white);
+    font-size: bolder;
+}
+
+/* Link Active Decorations */
+a:active{
+    color: var(--teal);
+    text-shadow: 1px var(--white);
+}
+
+/* About Me Banner Section */
+.about_banner img {
+    height: 200px;
+    width: 100%;
+}
+
+/* About Me Container Styling */
+.about {
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* About Me Container */
+.about_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Picture of Tiffany */
+.about_img img {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px double var(--white);
+    align-self: center;
+}
+
+/* About Tiffany Header */
+.about_header {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    align-self: right;
+    color: var(--gray);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* About Tiffany Text */
+.about_text {
+    margin: 30px;
+    padding: 30px;
+    font-size: 24px;
+    align-self: center;
+    color: var(--white);
+}
+/* Text color for work section */
+.work {
+    color: var(--white);
+}
+
+/* Header padding for Work h2 */
+.work h2 {
+    padding-left: 300px;
+}
+
+/* Container settings and styling */
+.work_container {
+    display: flex;
+    align-items: flex-end;
+    justify-items: flex-start;
+    margin: 10px;
+    color: var(--white);
+    padding-left: 200px;
+}
+
+/* Hover command for project_big */
+.project_big:hover {
+    background-color: var(--gray);
+    font-size: bolder;
+    box-shadow: 5px 5px (var--teal);                 
+}
+
+/* Hover command for project_1 */
+.project_1:hover {
+    background-color: var(--gray);
+    box-shadow: 10px 10px (var--teal);    
+}
+
+/* Container settings and styling */
+.project_big {
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-color: var(--purple);
+    border: 5px double var(--gray);
+}
+
+/* project_big container styling */
+.project_big img {
+    height: 460px;
+    width: 970px;
+    border: 3px solid (--white);
+}
+
+/* project_1 container styling */
+.project_1 {
+    color: var(--white);
+    font-size: 150%;
+    font-weight: bolder;
+    text-align: right;
+}
+
+/* span h3 styling */
+span h3 {
+    padding-right: 50px;
+}
+
+/* project 2 - 5 hover styling */
+.project_2:hover,
+.project_3:hover,
+.project_4:hover,
+.project_5:hover {
+    background-color: var(--gray);
+    font-size: bolder;
+    box-shadow: 5px 5px var(--teal);
+}
+
+/* project_small container styling */
+.project_small {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-left: 200px;
+}
+
+/* project_small image styling */
+.project_small img {
+    height: 200px;
+    width: 200px;
+}
+
+/* project_small h3 styling */
+.project_small h3 {
+    padding-right: 5px;
+}
+
+/* project 2 - 5 styling */
+.project_2,
+.project_3,
+.project_4,
+.project_5 {
+    border: 5px double var(--gray);
+    font-weight: bolder;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Resume font and list styling */
+.resume {
+    color: var(--white);
+    font-size: 26px;
+    list-style-type: disc;
+}
+
+/* Resume h2 styling */
+.resume h2 {
+    padding-left: 200px;
+}
+
+/* Resume container styling */
+.resume_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Resume container h3 styling */
+.resume_container h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* Resume experience settings */
+.resume_experience {
+    align-self: flex-start;
+}
+
+/* Resume skills settings */
+.resume_skills {
+    align-self: flex-start;
+}
+
+/* Resume education settings */
+.resume_education {
+    align-self: flex-start;
+}
+
+/* Contact font and stylings */
+.contact {
+    border: 5px solid var(--white);
+    background-color: var(--white);
+    padding-bottom: 15px;
+}
+
+/* Contact header h2 font and stylings */
+.contact_header h2 {
+    color: var(--teal);
+    text-align: center;
+}
+
+/* Contact container styling */
+.contact_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var (--black);
+}
+
+/* Contact container h3 styling */
+.contact_container h3 {
+    text-align: center;
+    font-size: 26px;
+}
+
+/* Contact container image styling */
+.contact_container img {
+    height: 75px;
+    width: 75px;
+    align-self: center;
+    justify-self: center;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid var(--black);
+}
+
+/* Footer font styling */
+footer {
+    color: var(--white);
+    text-align: center;
+}
+
+/* Media Queies for smaller screen */
+@media (max-width: 360px) {
+    
+    /* body and footer */
+    body,
+    footer {
+        font-size: 75%;
+    }
+
+    /* Nav links styling */
+    .nav_links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* About container styling */
+    .about_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    /* Work container styling */
+    .work_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 50px;
+    }
+
+     /* project_big container styling */
+    .project_big {
+        height: 150%;
+        width: 150%;
+    }
+
+     /* project_big image styling */
+    .project_big img {
+        height: 100%;
+        width: 100%;
+    }
+
+     /* project_small container styling */
+    .project_small {
+        height: 100%;
+        width: 100;
+    }
+
+     /* project_small image styling */
+    .project_small img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Project 2 - 5 container styling */
+    .project_2,
+    .project_3,
+    .project_4,
+    .project_5 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+
+    /* Resume container styling */
+    .resume_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+/* Media Queies for small screen */
+@media (max-width: 420px) {
+    
+    /* body and footer */
+    body,
+    footer {
+        font-size: 75%;
+    }
+
+    /* Nav links styling */
+    .nav_links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* About container styling */
+    .about_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    /* Work container styling */
+    .work_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 50px;
+    }
+
+     /* project_big container styling */
+    .project_big {
+        height: 150%;
+        width: 150%;
+    }
+
+     /* project_big image styling */
+    .project_big img {
+        height: 100%;
+        width: 100%;
+    }
+
+     /* project_small container styling */
+    .project_small {
+        height: 100%;
+        width: 100;
+    }
+
+     /* project_small image styling */
+    .project_small img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Project 2 - 5 container styling */
+    .project_2,
+    .project_3,
+    .project_4,
+    .project_5 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+
+    /* Resume container styling */
+    .resume_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+/* Media query for mid size screen  */
+@media (max-width: 780px) {
+    
+    /* body and footer */
+    body,
+    footer {
+        font-size: 75%;
+    }
+
+    /* Nav links styling */
+    .nav_links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* About container styling */
+    .about_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    /* Work container styling */
+    .work_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 50px;
+    }
+
+     /* project_big container styling */
+    .project_big {
+        height: 150%;
+        width: 150%;
+    }
+
+     /* project_big image styling */
+    .project_big img {
+        height: 100%;
+        width: 100%;
+    }
+
+     /* project_small container styling */
+    .project_small {
+        height: 100%;
+        width: 100;
+    }
+
+     /* project_small image styling */
+    .project_small img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Project 2 - 5 container styling */
+    .project_2,
+    .project_3,
+    .project_4,
+    .project_5 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+
+    /* Resume container styling */
+    .resume_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    /* Media Query for larger desktops */
+    @media (max-width: 1200px) {
+
+   /* Nav links styling */
+    .nav_links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+   /* About container styling */
+    .about_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+   /* Work container styling */
+    .work_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 50px;
+    }
+
+    /* project_big container styling */
+    .project_big {
+        height: 150%;
+        width: 150%;
+    }
+
+    /* project_big image styling */
+    .project_big img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* project_small container styling */
+    .project_small {
+        height: 100%;
+        width: 100;
+    }
+
+    /* project_small image styling */
+    .project_small img {
+        height: 100%;
+        width: 100%;
+    }    
+
+   /* Project 2 - 5 container styling */
+    .project_2,
+    .project_3,
+    .project_4,
+    .project_5 {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+
+   /* Resume container styling */
+    .resume_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
